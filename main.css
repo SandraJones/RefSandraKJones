@@ -1,0 +1,135 @@
+.parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.parallax__layer--base {
+  transform: translateZ(0);
+}
+.parallax__layer--back {
+  transform: translateZ(-1px);
+}
+.parallax__layer--back {
+  transform: translateZ(-1px) scale(2);
+}
+h1 {
+  font-size: 30px;
+  font-weight: 900;
+  text-align: center;
+}
+h2 {
+  font-size: 20px;
+  font-weight: 900;
+  text-align: center;
+}
+p {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+body {
+  background: #d0feff;
+  /* #d0feff     bold   #A0F1FA*/
+  background-color: #fbffc5;
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+.container {
+  background-color: white;
+  width:70%;
+  border-color: black;
+}
+li {
+  color: black;
+}
+
+article {
+  text-align: center;
+  background-color: #fbffc5;
+  /*#f3fb71*/
+  font-size: 14px;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 5px;
+}
+.contentOne {
+  font-size: 14px;
+  text-align: left;
+  font-weight: 500;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.thirdBlock {
+  align-items: center;
+  width: 60%;
+  margin-left: 20%;
+  margin-bottom: 2%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.fourthBlock {
+  align-items: center;
+  width: 60%;
+  margin-left: 20%;
+  margin-bottom: 2%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.fifthBlock {
+  align-items: center;
+  width: 60%;
+  margin-left: 20%;
+  margin-bottom: 2%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.navwrapper {
+  color: #A0F1FA;
+}
+.footer {
+  text-align: center;
+}
+.contentSmall {
+  font-size: 14px;
+  text-align: left;
+  font-weight: 500;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.lastBlock {
+  width: 60%;
+  align-items: center;
+  margin-left: 20%;
+  margin-bottom: 2%;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+}
+.black-text{
+  margin: 0 auto; 
+  text-align: center;
+  font-size: 14px;
+}
+.centerBottomLinks{
+  margin:0 auto;
+  text-align: center;
+}
+.projectContainer1{
+  background-color: #d3d3d3;
+  
+  background-image: url("https://www.transparenttextures.com/patterns/brick-wall-dark.png");
+  margin:0 auto;
+  margin-bottom: 5px;
+  padding-bottom: 10px;
+}
+.projectsTitle {
+  padding-top: 20px;
+}
+
