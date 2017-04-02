@@ -37,9 +37,7 @@ p {
 }
 body {
   background: #d0feff;
-  /* #d0feff     bold   #A0F1FA*/
   background-color: #fbffc5;
-  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 .container {
   background-color: white;
@@ -91,7 +89,9 @@ article {
   padding-right: 10px;
 }
 .navwrapper {
-  color: #A0F1FA;
+  color: black;
+  background-color: #d3d3d3;
+  background-image: url("https://www.transparenttextures.com/patterns/brick-wall-dark.png");
 }
 .footer {
   text-align: center;
@@ -123,7 +123,6 @@ article {
 }
 .projectContainer1{
   background-color: #d3d3d3;
-  
   background-image: url("https://www.transparenttextures.com/patterns/brick-wall-dark.png");
   margin:0 auto;
   margin-bottom: 5px;
@@ -133,5 +132,11 @@ article {
   padding-top: 20px;
 }
 .navbar-header {
-  background-color: #fbffcs;
+  background-color: #d3d3d3;
+  background-image: url("https://www.transparenttextures.com/patterns/brick-wall-dark.png");
+}
+#bs-example-navbar-collapse-1 {
+  background-color: #d3d3d3;
+  background-image: url("https://www.transparenttextures.com/patterns/brick-wall-dark.png");
+  width: 100%;
 }
