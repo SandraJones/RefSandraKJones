@@ -123,6 +123,7 @@ article {
 }
 .projectContainer1{
   background-color: #d3d3d3;
+  
   background-image: url("https://www.transparenttextures.com/patterns/brick-wall-dark.png");
   margin:0 auto;
   margin-bottom: 5px;
@@ -138,5 +139,4 @@ article {
 #bs-example-navbar-collapse-1 {
   background-color: #d3d3d3;
   background-image: url("https://www.transparenttextures.com/patterns/brick-wall-dark.png");
-  width: 100%;
 }
