@@ -22,25 +22,42 @@
 }
 h1 {
   font-size: 30px;
-  font-weight: 900;
+  font-weight: 600;
   text-align: center;
 }
 h2 {
   font-size: 20px;
-  font-weight: 900;
+  font-weight: 600;
   text-align: center;
 }
 p {
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 200;
   text-align: center;
+  color: rgba(255, 255, 255, 0.7);
 }
+
 body {
-  background: #d0feff;
-  background-color: #fbffc5;
+  position:  relative;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-image: url(banff-national-park-canada-3967.jpg);
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+}
+header {
+  position:  relative;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
 }
 .container {
-  background-color: white;
+  
   width:70%;
   border-color: black;
 }
@@ -50,8 +67,6 @@ li {
 
 article {
   text-align: center;
-  background-color: #fbffc5;
-  /*#f3fb71*/
   font-size: 14px;
   border-radius: 10px;
   padding: 5px;
@@ -90,8 +105,6 @@ article {
 }
 .navwrapper {
   color: black;
-  background-color: #d3d3d3;
-  background-image: url("https://www.transparenttextures.com/patterns/brick-wall-dark.png");
 }
 .footer {
   text-align: center;
@@ -121,22 +134,7 @@ article {
   margin:0 auto;
   text-align: center;
 }
-.projectContainer1{
-  background-color: #d3d3d3;
-  
-  background-image: url("https://www.transparenttextures.com/patterns/brick-wall-dark.png");
-  margin:0 auto;
-  margin-bottom: 5px;
-  padding-bottom: 10px;
-}
+
 .projectsTitle {
   padding-top: 20px;
-}
-.navbar-header {
-  background-color: #d3d3d3;
-  background-image: url("https://www.transparenttextures.com/patterns/brick-wall-dark.png");
-}
-#bs-example-navbar-collapse-1 {
-  background-color: #d3d3d3;
-  background-image: url("https://www.transparenttextures.com/patterns/brick-wall-dark.png");
 }
