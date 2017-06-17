@@ -1,4 +1,2 @@
-# RefSandraKJones
-Refactoring professional website 
+# PROFESSIONAL WEBSITE
 
-#In Active Redevelopment
