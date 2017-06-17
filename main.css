@@ -1,25 +1,4 @@
-.parallax {
-  perspective: 1px;
-  height: 100vh;
-  overflow-x: hidden;
-  overflow-y: auto;
-}
-.parallax__layer {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-.parallax__layer--base {
-  transform: translateZ(0);
-}
-.parallax__layer--back {
-  transform: translateZ(-1px);
-}
-.parallax__layer--back {
-  transform: translateZ(-1px) scale(2);
-}
+
 h1 {
   font-size: 30px;
   font-weight: 600;
@@ -42,7 +21,7 @@ body {
   width: 100%;
   background-size: cover;
   background-position: center;
-  background-image: url(banff-national-park-canada-3967.jpg);
+  background-image: url(FreeMountainPhoto.jpg);
   text-align: center;
   color: white;
   font-family: sans-serif;
@@ -57,9 +36,8 @@ header {
   font-family: sans-serif;
 }
 .container {
-  
-  width:70%;
-  border-color: black;
+  width:100%;
+  background-color: black;
 }
 li {
   color: black;
@@ -68,9 +46,6 @@ li {
 article {
   text-align: center;
   font-size: 14px;
-  border-radius: 10px;
-  padding: 5px;
-  margin: 5px;
 }
 .contentOne {
   font-size: 14px;
@@ -117,13 +92,9 @@ article {
   padding-right: 10px;
 }
 .lastBlock {
-  width: 60%;
+  width: 100%;
   align-items: center;
-  margin-left: 20%;
-  margin-bottom: 2%;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 20px;
+  padding: auto;
 }
 .black-text{
   margin: 0 auto; 
@@ -137,4 +108,10 @@ article {
 
 .projectsTitle {
   padding-top: 20px;
+}
+.spacer {
+  margin-top: 30%;
+}
+a {
+  color: white;
 }
