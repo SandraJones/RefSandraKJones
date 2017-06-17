@@ -110,8 +110,11 @@ article {
   padding-top: 20px;
 }
 .spacer {
-  margin-top: 30%;
+  margin-top: 70%;
 }
 a {
   color: white;
+}
+.footerClass {
+  margin-top: 100px;
 }
